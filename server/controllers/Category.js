@@ -8,7 +8,7 @@ exports.createCategory = async (req, res) => {
         if (!name || !decription) {
             return res.status(400).json({
                 success: false,
-                message: "All fields required",
+                message: "All fields required here",
             })
         }
         // create entry in db
